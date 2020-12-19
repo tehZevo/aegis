@@ -3,7 +3,8 @@
 ## What is it?
 The Aegis Project (or just "Aegis") is an exploration of combining concepts such as reinforcement learning, transfer learning, microservices, and automation.
 At its core, it provides standard methods for communicating between different "nodes".
-The protocol builds on top of HTTP POST requests - usually via [ProtoPost](https://github.com/tehzevo/protopost) (and its [Python variant](https://github.com/tehzevo/protopost-python))
+The protocol builds on top of HTTP POST requests - usually via [ProtoPost](https://github.com/tehzevo/protopost) (and its [Python variant](https://github.com/tehzevo/protopost-python)).
+Aegis nodes should also leverage Docker to avoid dependency issues and encourage portability.
 
 Each node represents a different type of microservice such as [reinforcement learning agents](https://github.com/tehzevo/aegis-ppo),
 [TensorBoard loggers](https://github.com/tehZevo/aegis-tensorboard),
@@ -11,3 +12,4 @@ and [Gaussian linear interpolation samplers](https://github.com/tehZevo/aegis-ga
 
 ## TODO
 * List of Aegis nodes
+* Upload other Aegis nodes (Pipe, etc)
