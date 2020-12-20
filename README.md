@@ -17,6 +17,9 @@ and [Gaussian linear interpolation samplers](https://github.com/tehZevo/aegis-ga
 * RL
   * [Vanilla Env](https://github.com/tehZevo/aegis-vanilla-env) - Run [Gym](https://github.com/openai/gym) environments as Aegis nodes
   * [PPO](https://github.com/tehZevo/aegis-ppo) - Run [Stable Baselines](https://github.com/hill-a/stable-baselines) PPO2 agents as Aegis nodes
+* NN/compute
+  * [ESN](https://github.com/tehZevo/aegis-esn) - Echo state networks with sparse input/output mapping support
+  * [Projection](https://github.com/tehZevo/aegis-projection) - Projects one shape into another with a fully connected and optionally squashed neural network layer.
 * Logging
   * [Tensorboard](https://github.com/tehZevo/aegis-tensorboard) - Log scalars and histograms via Aegis function calls
 * Generators
