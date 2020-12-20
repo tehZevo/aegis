@@ -12,7 +12,7 @@ and [Gaussian linear interpolation samplers](https://github.com/tehZevo/aegis-ga
 
 ## Nodes
 * Utility/FP
-  * [Distribute](https://github.com/tehZevo/aegis-distribute) - Call multiple other nodes, some functionality overlap with Pipe
+  * [Distribute](https://github.com/tehZevo/aegis-distribute) - When called, forwards the provided data to multiple other nodes
   * [Pipe](https://github.com/tehZevo/aegis-pipe) - Call nodes in order, with data passed from one to the next. Operates sort-of like FP "pipe" functions.
 * RL
   * [Vanilla Env](https://github.com/tehZevo/aegis-vanilla-env) - Run [Gym](https://github.com/openai/gym) environments as Aegis nodes
