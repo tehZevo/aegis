@@ -10,6 +10,18 @@ Each node represents a different type of microservice such as [reinforcement lea
 [TensorBoard loggers](https://github.com/tehZevo/aegis-tensorboard),
 and [Gaussian linear interpolation samplers](https://github.com/tehZevo/aegis-gaussian-lerp). As all nodes rely on POST requests, they can be easily linked together, even across hosts. This also makes building clients a breeze, as Aegis is compatible with anything that supports POST requests.
 
+## Nodes
+* Utility/FP
+  * [Distribute](https://github.com/tehZevo/aegis-distribute) - Call multiple other nodes, some functionality overlap with Pipe
+  * [Pipe](https://github.com/tehZevo/aegis-pipe) - Call nodes in order, with data passed from one to the next. Operates sort-of like FP "pipe" functions.
+* RL
+  * [Vanilla Env](https://github.com/tehZevo/aegis-vanilla-env) - Run [Gym](https://github.com/openai/gym) environments as Aegis nodes
+  * [PPO](https://github.com/tehZevo/aegis-ppo) - Run [Stable Baselines](https://github.com/hill-a/stable-baselines) PPO2 agents as Aegis nodes
+* Logging
+  * [Tensorboard](https://github.com/tehZevo/aegis-tensorboard) - Log scalars and histograms via Aegis function calls
+* Generators
+  * [Gaussian Lerp](https://github.com/tehZevo/aegis-gaussian-lerp) - Generates interpolations between Gaussian samples
+
 ## TODO
-* List of Aegis nodes
-* Upload other Aegis nodes (Pipe, etc)
+* Upload more nodes
+* Provide docker-compose examples
