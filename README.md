@@ -54,7 +54,7 @@ See [Aegis Experiments](https://github.com/tehZevo/aegis-experiments) for experi
   - [Discord](https://github.com/tehZevo/aegis-discord) - Listen for and send messages on Discord
   - [Mailer](https://github.com/tehZevo/aegis-mailer) - Send emails via Aegis function calls
   - [Sheets](https://github.com/tehZevo/aegis-sheets) - Read from Google Sheets
-
+  - [Chonky](https://github.com/tehZevo/chonky) - Sparse mappings between arrays of varying ranks
 ## Non-node Utilities
 - [ProtoPost](https://github.com/tehZevo/protopost) ([Python variant](https://github.com/tehZevo/protopost-python))
 - [Keras model builder](https://github.com/tehZevo/keras-model-builder)
