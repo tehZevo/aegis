@@ -1,7 +1,7 @@
 # Aegis Project
 
 ## What is it?
-The Aegis Project (or just "Aegis") is an exploration of combining concepts such as reinforcement learning, transfer learning, microservices, and automation.
+The Aegis Project (or just "Aegis") is an exploration of combining reinforcement learning, transfer learning, microservices, and automation concepts.
 At its core, it provides standard methods for communicating between different "nodes".
 The protocol builds on top of HTTP POST requests - usually via [ProtoPost](https://github.com/tehzevo/protopost) (and its [Python variant](https://github.com/tehzevo/protopost-python)).
 Aegis nodes should also leverage Docker to avoid dependency issues and encourage portability.
@@ -9,6 +9,9 @@ Aegis nodes should also leverage Docker to avoid dependency issues and encourage
 Each node represents a different type of microservice such as [reinforcement learning agents](https://github.com/tehzevo/aegis-ppo),
 [TensorBoard loggers](https://github.com/tehZevo/aegis-tensorboard),
 and [Gaussian linear interpolation samplers](https://github.com/tehZevo/aegis-gaussian-lerp). As all nodes rely on POST requests, they can be easily linked together, even across hosts. This also makes building clients a breeze, as Aegis is compatible with anything that supports POST requests.
+
+## Experiments
+See [Aegis Experiments](https://github.com/tehZevo/aegis-experiments) for experiments.
 
 ## Nodes
 * Utility/FP
@@ -26,5 +29,4 @@ and [Gaussian linear interpolation samplers](https://github.com/tehZevo/aegis-ga
   * [Gaussian Lerp](https://github.com/tehZevo/aegis-gaussian-lerp) - Generates interpolations between Gaussian samples
 
 ## TODO
-* Upload more nodes
-* Provide docker-compose examples
+* Upload/document more nodes
